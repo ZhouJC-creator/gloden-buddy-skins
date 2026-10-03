@@ -1,0 +1,89 @@
+{
+  "id": "goldbean",
+  "displayName": "Gold Bean 金豆",
+  "description": "A round golden bean / ingot mascot wearing a red scarf. Pixel-art desktop pet themed around gold price: idle, price up, price down, target-price alert, watching, waiting, waving, running and alert bell.",
+  "spritesheetPath": "spritesheet.webp",
+  "cellSize": [
+    192,
+    208
+  ],
+  "grid": [
+    8,
+    9
+  ],
+  "background": "#FF00FF",
+  "animations": [
+    {
+      "row": 0,
+      "name": "idle",
+      "frames": 8,
+      "loop": true,
+      "frameDurationMs": 150,
+      "description": "待机：呼吸起伏、眨眼"
+    },
+    {
+      "row": 1,
+      "name": "gold-up",
+      "frames": 8,
+      "loop": true,
+      "frameDurationMs": 150,
+      "description": "金价上涨：咧嘴大笑、开心蹦跳、冒金币"
+    },
+    {
+      "row": 2,
+      "name": "gold-down",
+      "frames": 8,
+      "loop": true,
+      "frameDurationMs": 150,
+      "description": "金价下跌：垂头丧气、哭丧脸、落泪"
+    },
+    {
+      "row": 3,
+      "name": "target-reached",
+      "frames": 8,
+      "loop": true,
+      "frameDurationMs": 150,
+      "description": "达到设定价提醒：激动跳起、星形闪光、敲铃提醒"
+    },
+    {
+      "row": 4,
+      "name": "thinking",
+      "frames": 8,
+      "loop": true,
+      "frameDurationMs": 150,
+      "description": "盯盘思考：托腮、眯眼盯着前方"
+    },
+    {
+      "row": 5,
+      "name": "waiting",
+      "frames": 8,
+      "loop": true,
+      "frameDurationMs": 150,
+      "description": "等待：无聊发呆、左右张望"
+    },
+    {
+      "row": 6,
+      "name": "waving",
+      "frames": 8,
+      "loop": true,
+      "frameDurationMs": 150,
+      "description": "挥手：举手打招呼"
+    },
+    {
+      "row": 7,
+      "name": "running",
+      "frames": 8,
+      "loop": true,
+      "frameDurationMs": 150,
+      "description": "奔跑：迈开短腿小跑"
+    },
+    {
+      "row": 8,
+      "name": "alert",
+      "frames": 8,
+      "loop": true,
+      "frameDurationMs": 150,
+      "description": "提醒播报：举铃摇晃、冒金币闪光"
+    }
+  ]
+}
